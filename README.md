@@ -1,8 +1,24 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## QR code generator and reader
 
-Currently, two official plugins are available:
+- [Live Preview](https://prismatic-youtiao-500fb9.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+# About Project
+you can create QR code from any link or text and also you can read QR code by uploading qr code file(.png,  .jpg, .jpeg)
+
+
+
+
+
+## Authors -- Sultan Mahmud
+
+- [Portfolio](https://sultanmahmudbd.netlify.app/)
+- [Github](https://github.com/mdsultanmahmud)
+
+
+## Tech Stack
+
+**Client:** React, TailwindCSS, qrcode,qr-scanner
+
+

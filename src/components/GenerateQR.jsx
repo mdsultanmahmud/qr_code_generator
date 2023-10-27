@@ -15,7 +15,7 @@ const GenerateQR = () => {
     }
     return (
         <div className="px-8">
-            <h1 className="text-2xl font-semibold text-green-500 mb-8">Generate QR code with text or url</h1>
+            <h1 className="text-2xl font-semibold text-blue-500 mb-8">Generate QR code with text or url</h1>
             <form onSubmit={handleQRGenerate}>
                 <div className="flex items-center">
                     <input onKeyDown={() => setQrImg("")} name="text" type="text" placeholder="Enter text or url..." required className="w-full text-lg text-blue-500 px-4 outline-none py-2" style={{ border: "1px solid blue" }} />
@@ -26,7 +26,7 @@ const GenerateQR = () => {
             {
                 qrImg &&
                 <div className='mt-12 text-center'>
-                    <h2 className='text-green-500 text-lg text-center font-semibold'>Your generated QR Code!!</h2>
+                    <h2 className='text-blue-500 text-lg text-center font-semibold'>Your generated QR Code!!</h2>
                     <a href={qrImg} download={"qr.png"}>
                         <img src={qrImg} alt="QR code" className='block mx-auto w-[200px]' />
                     </a>
